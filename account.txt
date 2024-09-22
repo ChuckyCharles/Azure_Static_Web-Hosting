@@ -1,0 +1,14 @@
+Install azure cli on ubuntu ---  curl -sL https://aka.ms/
+
+InstallAzureCLIDeb | sudo bash
+
+Login ....az login
+
+#Login through the Azure CLI makes the initilization with the terraform identification an easy process.
+
+
+We can then initializa terraform in the direcory containing resource creation files using the commands ;
+
+terraform init;
+terraform plan;
+terraform apply;
